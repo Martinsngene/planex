@@ -1,0 +1,34 @@
+/* Styles for container */
+.container {
+  @apply w-full h-[80px] z-50 fixed top-0 left-0 right-0 py-2 lg:py-0 pr-8 md:pr-0 pl-8 flex flex-row items-center justify-between;
+  background: linear-gradient(
+    109.46deg,
+    rgba(200, 200, 200, 0.1) 1.57%,
+    rgba(196, 196, 196, 0.1) 100%
+  );
+  backdrop-filter: blur(10px);
+}
+
+/* Styles for logo container */
+.logo_container {
+  @apply flex items-center justify-center text-white font-extrabold text-4xl;
+}
+
+/* Styles for Nav Links Container */
+.nav_links_container {
+  @apply w-[45%] items-center justify-between hidden md:flex;
+}
+
+/* Article Button Styles */
+.article_btn_container {
+  @apply relative hidden md:block h-[80px] w-[90px];
+}
+
+/* Styles for Nav Link */
+.nav_link {
+  @apply text-white rounded-[0.5rem] text-[0.75rem] w-[120px] px-2 py-3 xl:text-[1rem] font-[700] tracking-[1.5px] leading-[1.375rem];
+}
+
+.menu_open_button {
+  @apply text-white text-[2rem];
+}

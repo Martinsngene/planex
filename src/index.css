@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* canvas {
+  z-index: 10;
+} */
+html,
+body {
+  overflow-x: hidden;
+  z-index: 50;
+}
